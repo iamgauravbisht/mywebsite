@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Header from "./components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -9,10 +8,10 @@ import Testimonials from "./components/Testimonials";
 import { mainContext } from "./helpers/Contexts";
 
 function App() {
-  const [pagestate, setPagestate] = useState("connect");
+  const [pagestate, setPagestate] = useState("mainpage");
 
   return (
-    <div className="App font-mono text-center mx-auto selection:bg-fuchsia-300 selection:text-fuchsia-900">
+    <div className="App font-mono text-center  selection:bg-fuchsia-300 selection:text-fuchsia-900 max-w-[1920px]  grid place-items-center">
       <mainContext.Provider value={{ pagestate, setPagestate }}>
         {pagestate === "connect" && <Connect />}
         {pagestate === "mainpage" && (

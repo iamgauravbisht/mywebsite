@@ -6,7 +6,8 @@ export default function Testimonials() {
       className="mb-24 w-full grid place-items-center "
       id="Testimonials"
     >
-      <div className="w-2/4 flex items-center justify-center">
+      <div className="sm:w-[85%] min-w-[320px] h-[280px] sm:h-[400px] sm:flex  overflow-x-auto snap-y sm:snap-x">
+        <TestimonialsCard />
         <TestimonialsCard />
         <TestimonialsCard />
       </div>

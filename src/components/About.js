@@ -10,14 +10,14 @@ export default function About() {
   return (
     <>
       <section
-        className=" w-full  h-screen grid place-items-center  text-white text-center  bg-violet-700 "
+        className=" w-full  h-screen grid place-items-center  text-white text-center  bg-violet-700 px-2"
         id="About"
       >
-        <div className="h-2/4 w-2/4">
-          <p className="text-3xl font-semibold">
+        <div className="lg:h-2/4 lg:w-2/4 w-full">
+          <p className="text-2xl font-semibold">
             Hi, I’m Gaurav. Nice to meet you.
           </p>
-          <p className="text-xl font-semibold mt-5">
+          <p className="text-md font-semibold mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque
             cupiditate repudiandae sint, possimus sunt hic natus doloremque
             suscipit itaque, praesentium asperiores nesciunt optio, excepturi
@@ -26,10 +26,10 @@ export default function About() {
         </div>
       </section>
       <section
-        className="my-20 grid place-items-center text-white relative"
+        className=" my-20 grid place-items-center text-white relative"
         id="Connect"
       >
-        <div className="w-2/4 bg-[#141c3a] p-4 rounded-lg  absolute ">
+        <div className="lg:w-2/4 bg-[#141c3a] p-4 rounded-lg  absolute w-full">
           <div
             className="w-3/4 flex justify-evenly items-center m-auto"
             id="social-media"
