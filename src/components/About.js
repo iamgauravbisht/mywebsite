@@ -13,7 +13,7 @@ export default function About() {
         className=" w-full  h-screen grid place-items-center  text-white text-center  bg-violet-700 px-2"
         id="About"
       >
-        <div className="lg:h-2/4 lg:w-2/4 w-full">
+        <div className="lg:h-2/4 lg:w-2/4 ">
           <p className="text-2xl font-semibold">
             Hi, I’m Gaurav. Nice to meet you.
           </p>
