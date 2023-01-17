@@ -6,6 +6,7 @@ import Connect from "./components/Connect";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import { mainContext } from "./helpers/Contexts";
+import MobileMenu from "./components/MobileMenu";
 
 function App() {
   const [pagestate, setPagestate] = useState("mainpage");
@@ -23,6 +24,7 @@ function App() {
             <Footer />
           </div>
         )}
+        {pagestate === "menu" && <MobileMenu />}
       </mainContext.Provider>
     </div>
   );
