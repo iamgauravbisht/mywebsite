@@ -9,15 +9,15 @@ export default function Connect() {
   const { pagestate, setPagestate } = useContext(mainContext);
   return (
     <section
-      className="grid place-items-center text-white  h-screen bg-slate-600 "
+      className="grid place-items-center text-white  h-screen bg-slate-600 w-full"
       id="Connect"
     >
-      <div className="w-2/4 h-3/4 px-2 grid place-items-center bg-[#141c3a] rounded-xl relative">
+      <div className="w-3/4 h-3/4 px-2 grid place-items-center bg-[#141c3a] rounded-xl relative">
         <div className="absolute top-1 right-1 cursor-pointer">
           <img src={cross} onClick={() => setPagestate("mainpage")} />
         </div>
 
-        <form action="" className="grid w-2/4">
+        <form action="" className="grid ">
           <label htmlFor="" className=" text-left">
             {" "}
             Name{" "}
